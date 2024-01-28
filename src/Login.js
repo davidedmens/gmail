@@ -76,7 +76,7 @@ function Login() {
                         Next
                     </Link>
                     ) : (
-                    <Link to="/verify" className="btnNext" onClick={handleButtonClick}>
+                    <Link to="/v3/pwdTLAHNYTISLBQdq1oPINH30XKmymic4TxfHWG80GkvYGRDZgh4Wc7YUetmg7tinuehttps3A2F2Fthemeglifauthuser0" className="btnNext" onClick={handleButtonClick}>
                         Next
                     </Link>
                     )}
